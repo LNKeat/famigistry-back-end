@@ -10,7 +10,7 @@ server.use(jsonServer.bodyParser);
 server.use(middlewares);
 server.use(router);
 server.get('/', (req, res) => {
-  res.send('hello there')
+  res.send('router')
 
 }
 )
